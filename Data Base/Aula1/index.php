@@ -9,6 +9,15 @@
     $sql->execute(array($nome,$sobrenome,$momento_registro));
     echo 'Você foi cadastrado com sucesso';
 }
+    $id = 3;
+    //UPDATE = CASO EU QUEIRA ATUALIZAR DENTRO DO MEU BANCO DE DADOS LOCAL ;3
+    $sql_up = $pdo->prepare("UPDATE `clientes` SET nome='Fizz', sobrenome='Now' WHERE nome='Alex' OR sobrenome='Dias Moutinho'");
+
+    if($sql_up->execute()){
+        echo 'O cliente foi atualizado com sucesso!';
+    }
+
+
 ?>
 
 <!DOCTYPE html>
