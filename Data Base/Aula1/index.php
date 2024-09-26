@@ -35,3 +35,5 @@
         </form>
 </body>
 </html>
+
+$sql = $pdo->prepare("INSERT INTO `usuarios` VALUES('nome'
