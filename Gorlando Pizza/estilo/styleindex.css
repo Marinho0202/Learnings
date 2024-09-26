@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fundopizzalando.jpeg'); /* Substitua pelo link de uma imagem de fundo relacionada a pizza */
+    background-size: cover;
+    background-position: center;
+}
+
+.content1 {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.title {
+    color: #d35400;
+    margin-bottom: 20px;
+}
+
+.text1, .text2 {
+    margin: 15px 0 5px;
+    color: #333;
+    font-size: 1.1em;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-button {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #c0392b;
+}
+
+.register-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #d35400;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
